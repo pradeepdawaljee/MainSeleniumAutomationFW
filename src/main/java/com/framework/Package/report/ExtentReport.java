@@ -14,7 +14,7 @@ public class ExtentReport {
 	
 	@BeforeSuite
 	public void ExtentReporting(){
-		String filePath=System.getProperty("user.dir")+"/Reports/MyOwnReports.html";
+		String filePath=System.getProperty("user.dir")+"./Reports/MyOwnReports.html";
 		File configFile=new File(System.getProperty("user.dir")+"/src/main/resources/configFiles/extent-config.xml");
 		boolean replaceExisting=true;
 		extent=new ExtentReports(filePath, replaceExisting);
