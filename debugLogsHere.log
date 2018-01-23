@@ -1,0 +1,19 @@
+2018-01-23 17:29:22 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-01-23 17:29:30 [INFO ] [BaseClass] - [openBrowser] Opening Url https://qaapp.moolya.global
+2018-01-23 17:29:31 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
+2018-01-23 17:29:32 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-01-23 17:29:32.087
+2018-01-23 17:29:32 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
+2018-01-23 17:29:32 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:29:33 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-01-23 17:30:09 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-01-23 17:30:45 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login

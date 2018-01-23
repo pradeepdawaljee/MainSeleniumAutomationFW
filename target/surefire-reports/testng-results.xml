@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88573" started-at="2018-01-23T11:59:18Z" finished-at="2018-01-23T12:00:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="88573" started-at="2018-01-23T11:59:18Z" finished-at="2018-01-23T12:00:47Z">
+      <class name="com.framework.Package.tests.SmokeTest">
+        <test-method status="PASS" signature="ExtentReporting()[pri:0, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="ExtentReporting" is-config="true" duration-ms="226" started-at="2018-01-23T17:29:18Z" finished-at="2018-01-23T17:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReporting -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="openBrowser" is-config="true" duration-ms="12103" started-at="2018-01-23T17:29:18Z" finished-at="2018-01-23T17:29:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="forgotPasswordFunc()[pri:2, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="forgotPasswordFunc" duration-ms="38028" started-at="2018-01-23T17:29:30Z" finished-at="2018-01-23T17:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordFunc -->
+        <test-method status="PASS" signature="forgotPasswordWithInvalidEmail()[pri:3, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="forgotPasswordWithInvalidEmail" duration-ms="36663" started-at="2018-01-23T17:30:08Z" finished-at="2018-01-23T17:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordWithInvalidEmail -->
+        <test-method status="PASS" signature="navigateToLoginPageFromForgotPasswordScreen()[pri:4, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="navigateToLoginPageFromForgotPasswordScreen" duration-ms="1425" started-at="2018-01-23T17:30:45Z" finished-at="2018-01-23T17:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPageFromForgotPasswordScreen -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.Package.tests.SmokeTest@2a556333]" name="end" is-config="true" duration-ms="326" started-at="2018-01-23T17:30:47Z" finished-at="2018-01-23T17:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.framework.Package.tests.SmokeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
