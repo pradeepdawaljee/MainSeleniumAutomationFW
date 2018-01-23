@@ -17,9 +17,7 @@ public class SmokeTest extends BaseClass{
 	
 	Login login=new Login();
 	LandingScreen landingScreen=new LandingScreen();
-	ForgotPassword forgotPassword=new ForgotPassword();
-	
-	
+	ForgotPassword forgotPassword=new ForgotPassword();	
 	
 	
 	@Test(priority=1,description="Entering valid username & Empty password")
