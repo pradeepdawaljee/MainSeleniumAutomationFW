@@ -9,7 +9,7 @@ public class LandingScreen {
 	By chaptersText=By.xpath(".//a[text()='Chapters']");
 	
 	public void verifyLandingScreen() throws Exception{
-		CommonMethods.compareWithExpectedElement(chaptersText);
+		CommonMethods.compareWithExpectedElement(chaptersText,"Comparing text="+chaptersText);
 	}
 	
 

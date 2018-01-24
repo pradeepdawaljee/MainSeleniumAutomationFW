@@ -5,7 +5,7 @@
   <test name="Test">
   
 <parameter name="browserType" value="Chrome"></parameter> 
-<parameter name="environment" value="QA"></parameter> 
+<parameter name="environment" value="STAGGING"></parameter> 
     <classes>
       <class name="com.framework.Package.tests.SmokeTest"/>
     </classes>

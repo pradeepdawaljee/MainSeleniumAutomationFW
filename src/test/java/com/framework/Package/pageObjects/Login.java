@@ -22,37 +22,37 @@ public class Login {
 
 	public void passDataToUsernameField(String userEmail) throws Exception{
 
-		CommonMethods.clear(username);
-		CommonMethods.sendKeys(username, userEmail);
+		CommonMethods.clear(username,"Clearing username field");
+		CommonMethods.sendKeys(username, userEmail,"Passing data="+userEmail+" to the username field");
 
 	}
 
 	public void passDataToPasswordField(String userPassword) throws Exception{
 
-		CommonMethods.clear(password);
-		CommonMethods.sendKeys(password, userPassword);
+		CommonMethods.clear(password,"Clearing password field");
+		CommonMethods.sendKeys(password, userPassword,"Passing data="+userPassword+" to the password field");
 
 	}
 	
 	public void clickOnLoginButton() throws Exception{
 		
-		CommonMethods.findElementByTextAndClick(loginButtonText);
+		CommonMethods.findElementByTextAndClick(loginButtonText,"clicking login element "+loginButtonText);
 	}
 	
 	public void clickOnRememberMeCheckBox() throws Exception{
-		CommonMethods.click(rememberMeCheckBox);
+		CommonMethods.click(rememberMeCheckBox,"Clicking remember me check box field "+rememberMeCheckBox);
 	}
 	
 	public void clickOnForgotPasswordLink() throws Exception{
-		CommonMethods.click(forgotPasswordLink);
+		CommonMethods.click(forgotPasswordLink,"Clicking forgot password link "+forgotPasswordLink);
 	}
 	
 	public void clickOnRegisterLink() throws Exception{
-		CommonMethods.click(registerLink);
+		CommonMethods.click(registerLink,"Clicking register  link "+registerLink);
 	}
 	
 	public void verifyLoginPage() throws Exception{
-		CommonMethods.compareWithExpectedElement(verifyLoginText);
+		CommonMethods.compareWithExpectedElement(verifyLoginText,"Comparing text="+verifyLoginText);
 	}
 
 }

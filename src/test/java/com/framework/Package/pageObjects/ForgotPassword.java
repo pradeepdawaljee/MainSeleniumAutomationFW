@@ -19,24 +19,24 @@ public class ForgotPassword {
 	public void passDataToUserNameField(String userEmail) throws Exception{
 		
 		CommonMethods.findElementByPlaceHolder(emailPlaceHolder).clear();
-		CommonMethods.findElementByPlaceHolderAndSendKeys(emailPlaceHolder, userEmail);
+		CommonMethods.findElementByPlaceHolderAndSendKeys(emailPlaceHolder, userEmail,"Sending data="+userEmail+" to the field "+emailPlaceHolder);
 		
 	}
 	
 	public void clickSubmitButton() throws Exception{
-		CommonMethods.findElementByTextAndClick(submitButtonText);
+		CommonMethods.findElementByTextAndClick(submitButtonText,"Clicking on "+submitButtonText+" element");
 	}
 	
 	public void verifyForgotPasswordPage() throws Exception{
-		CommonMethods.compareWithExpectedElement(verifyForgotPasswordText);
+		CommonMethods.compareWithExpectedElement(verifyForgotPasswordText," comparing with expected element "+verifyForgotPasswordText);
 	}
 	
 	public void clickLoginHyperlink() throws Exception{
-		CommonMethods.click(loginLinkText);
+		CommonMethods.click(loginLinkText,"Clicking on login hyperlink "+loginLinkText);
 	}
 	
 	public void clickRegisterHyperlink() throws Exception{
-		CommonMethods.click(registerLinkText);
+		CommonMethods.click(registerLinkText,"Clicking on register hyperlink "+registerLinkText);
 		
 	}
 	

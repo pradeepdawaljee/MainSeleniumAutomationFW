@@ -27,7 +27,7 @@ public class CommonMethods extends BaseClass {
 	public static String failedLoggerMessage=" Failed. Element is not visible or disabled on the webpage. ";
 	
 	public static By popUpNotification=By.xpath(".//*[@id='toast-container']/div/div");
-	static String stepDescription="Parameterize this variable";
+	//static String stepDescription="Parameterize this variable";
 	
 	public static String captureScreenshot() throws Exception{
 		return extentTest.addScreenCapture(takeScreenShot(driver));
@@ -62,7 +62,7 @@ public class CommonMethods extends BaseClass {
 		 return driver.findElements(element);
 	}
 	
-	public static void sendKeys(By element,String sendKeysValue) throws Exception{
+	public static void sendKeys(By element,String sendKeysValue,String stepDescription) throws Exception{
 		
 		if(isElementPresent(element)){
 			findElement(element).sendKeys(sendKeysValue);
@@ -75,7 +75,7 @@ public class CommonMethods extends BaseClass {
 		}
 	}
 	
-	public static void clear(By element) throws Exception{
+	public static void clear(By element,String stepDescription) throws Exception{
 		
 		if(isElementPresent(element)){
 			findElement(element).clear();
@@ -88,7 +88,7 @@ public class CommonMethods extends BaseClass {
 		}
 	}
 	
-	public static void click(By element) throws Exception{
+	public static void click(By element,String stepDescription) throws Exception{
 		
 		if(isElementPresent(element)){
 			findElement(element).click();
@@ -109,7 +109,7 @@ public class CommonMethods extends BaseClass {
 		return CommonMethods.findElement(By.xpath(".//*[text()='"+textElement+"']"));
 	}
 	
-	public static void findElementByTextAndClick(String textElement) throws Exception{
+	public static void findElementByTextAndClick(String textElement,String stepDescription) throws Exception{
 		 CommonMethods.findElement(By.xpath(".//*[text()='"+textElement+"']")).click();
 		 log.info("Clicking on element with text....."+textElement);
 		 extentTest.log(LogStatus.PASS, stepDescription, captureScreenshot());
@@ -119,7 +119,7 @@ public class CommonMethods extends BaseClass {
 		 return CommonMethods.findElement(By.xpath(".//*[@placeholder='"+placeholderTextElement+"']"));
 	}
 	
-	public static void findElementByPlaceHolderAndSendKeys(String placeholderTextElement,String sendKeysValue) throws Exception{
+	public static void findElementByPlaceHolderAndSendKeys(String placeholderTextElement,String sendKeysValue,String stepDescription) throws Exception{
 		 CommonMethods.findElement(By.xpath(".//*[@placeholder='"+placeholderTextElement+"']")).sendKeys(sendKeysValue);
 		 log.info("Entering value ....."+sendKeysValue+" into the text box field...."+placeholderTextElement);
 		 extentTest.log(LogStatus.PASS, stepDescription, captureScreenshot());
@@ -160,7 +160,7 @@ public class CommonMethods extends BaseClass {
 		}
 	}
 	
-	public static boolean compareWithExpectedElement(By expectedLocator) throws Exception{
+	public static boolean compareWithExpectedElement(By expectedLocator,String stepDescription) throws Exception{
 		
 		try{
 
