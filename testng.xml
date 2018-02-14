@@ -11,7 +11,11 @@
 <parameter name="browserType" value="Chrome"></parameter> 
 <parameter name="environment" value="STAGGING"></parameter> 
     <classes>
-      <class name="com.framework.Package.tests.SmokeTest"/>
+      <class name="com.framework.Package.tests.SmokeTest">
+          <!-- <methods>
+              <include name="testCaseWithMultipleRecords"></include>
+          </methods> -->
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

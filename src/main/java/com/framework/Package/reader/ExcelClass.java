@@ -236,8 +236,29 @@ public class ExcelClass {
 		fos.close();
 
 	}
+	
+	public Object[][] dataProviderGetData(String sheetName){
+		
+		sh=wb.getSheet(sheetName);
+		int totalRows=totalNumberOfRowsInSheet(sheetName);
+		int totalCols=totalNumberOfColumns(sheetName,1);
+		System.out.println("totalRows="+totalRows+" totalCols="+totalCols);
+		Object[][] data=new Object[totalRows-1][totalCols];
+		
+		for(int rows=0;rows<totalRows-1;rows++){
+			
+			for(int cols=0;cols<totalCols;cols++){
+				
+				data[rows][cols]=sh.getRow(rows+1).getCell(cols).toString();
+			}
+			
+		}
+		
+		return data;
+		
+	}
 
-	public static void main(String args[]) throws Exception{
+	/*public static void main(String args[]) throws Exception{
 
 		ExcelClass data=new ExcelClass(System.getProperty("user.dir")+"/src/main/resources/excelFiles/login.xlsx");
 		//System.out.println(data.getNumberOfSheets());
@@ -248,6 +269,6 @@ public class ExcelClass {
 		//data.setCellData("OwnSheet", 1, 2, "MyValue");
 		System.out.println("Done");
 
-	}
+	}*/
 
 }

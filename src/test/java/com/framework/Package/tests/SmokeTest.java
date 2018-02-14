@@ -1,6 +1,8 @@
 package com.framework.Package.tests;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.framework.Package.core.BaseClass;
@@ -101,6 +103,27 @@ public class SmokeTest extends BaseClass{
 		extentTest=extent.startTest("TC004  navigateToLoginPageFromForgotPasswordScreen testcase");
 		forgotPassword.clickLoginHyperlink();
 		login.verifyLoginPage();
+		
+	}
+	
+	@Test(priority=-1,dataProvider="gettingDataUsingDataProvider",groups="MultipleRecords",enabled=true)
+	public void testCaseWithMultipleRecords(String firstCol,String secondCol) throws Exception{
+		extentTest=extent.startTest("TC***001 All records one after other testcase");
+		System.out.println(firstCol+" "+secondCol);
+		login.passDataToUsernameField(firstCol);
+		login.passDataToPasswordField(secondCol);
+		login.clickOnLoginButton();
+		String message=CommonMethods.getPopUpNotificationMessage();
+		//Assert.assertTrue(message.contains("Please enter a valid EmailId"));
+		//Assert.assertTrue(message.contains("A valid username is required"));
+		Assert.assertTrue(message.contains("valid"));
+	}
+	
+	@DataProvider
+	public Object[][] gettingDataUsingDataProvider(){
+		
+		String sheetName="MultipleRecordsExecute";
+		return data.dataProviderGetData(sheetName);
 		
 	}
 

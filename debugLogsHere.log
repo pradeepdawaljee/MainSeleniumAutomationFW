@@ -1,169 +1,87 @@
-2018-01-23 17:29:22 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
-2018-01-23 17:29:30 [INFO ] [BaseClass] - [openBrowser] Opening Url https://qaapp.moolya.global
-2018-01-23 17:29:31 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
-2018-01-23 17:29:32 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-01-23 17:29:32.087
-2018-01-23 17:29:32 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
-2018-01-23 17:29:32 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:29:33 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:29:33 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-23 17:30:09 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-23 17:30:45 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login
-2018-01-24 13:54:24 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
-2018-01-24 13:54:25 [INFO ] [BaseClass] - [openBrowser] Opening Url https://qaapp.moolya.global
-2018-01-24 13:54:30 [INFO ] [CommonMethods] - [compareWithExpectedElement] no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir11412_22644}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5b22e12f04fa7c1e91219d3de0c7de49
-*** Element info: {Using=xpath, value=.//*[text()='Login']}
-2018-01-24 13:54:30 [ERROR] [CommonMethods] - [compareWithExpectedElement] Expected value not present in the webpageno such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir11412_22644}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5b22e12f04fa7c1e91219d3de0c7de49
-*** Element info: {Using=xpath, value=.//*[text()='Login']}
-2018-01-24 13:54:30 [ERROR] [CommonMethods] - [compareWithExpectedElement] no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir11412_22644}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5b22e12f04fa7c1e91219d3de0c7de49
-*** Element info: {Using=xpath, value=.//*[text()='Login']}
-2018-01-24 13:55:21 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
-2018-01-24 13:56:47 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
-2018-01-24 13:56:54 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
-2018-01-24 13:56:55 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-01-24 13:56:56 [INFO ] [CommonMethods] - [sendKeys] Entering value....pradeep.dawaljee@raksan.in into the textbox field....By.name: userName
-2018-01-24 13:56:56 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-01-24 13:56:57 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: Password
-2018-01-24 13:56:58 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-01-24 13:56:59 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:56:59 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:56:59 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-24 13:57:34 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
-2018-01-24 13:57:35 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-01-24 13:57:35.223
-2018-01-24 13:57:35 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
-2018-01-24 13:57:35 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-01-24 13:57:36 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:57:36 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:57:36 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:57:36 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:57:36 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:12 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-24 13:58:48 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login
-2018-01-24 13:58:50 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-01-24 13:58:50 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: userName
-2018-01-24 13:58:51 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-01-24 13:58:52 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
-2018-01-24 13:58:52 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-01-24 13:58:53 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:53 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-01-24 13:58:53 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-01-24 13:59:29 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-01-24 13:59:30 [INFO ] [CommonMethods] - [sendKeys] Entering value....platformadmin@moolya.global into the textbox field....By.name: userName
-2018-01-24 13:59:31 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-01-24 13:59:32 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
-2018-01-24 13:59:32 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-01-24 13:59:34 [INFO ] [SmokeTest] - [loginFunc] Landing Page Verified successfully
-2018-02-02 19:30:18 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
-2018-02-02 19:30:25 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
-2018-02-02 19:30:26 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-02-02 19:30:27 [INFO ] [CommonMethods] - [sendKeys] Entering value....pradeep.dawaljee@raksan.in into the textbox field....By.name: userName
-2018-02-02 19:30:28 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-02-02 19:30:28 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: Password
-2018-02-02 19:30:29 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-02-02 19:30:30 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:30:30 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:30:30 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-02-02 19:31:05 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
-2018-02-02 19:31:06 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-02-02 19:31:06.511
-2018-02-02 19:31:06 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:07 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-02-02 19:31:43 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
-2018-02-02 19:31:43 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
-2018-02-02 19:31:44 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:44 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:44 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:44 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:31:44 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-02-02 19:32:25 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login
-2018-02-02 19:32:27 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-02-02 19:32:27 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: userName
-2018-02-02 19:32:28 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-02-02 19:32:29 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
-2018-02-02 19:32:29 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-02-02 19:32:30 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:32:30 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
-2018-02-02 19:32:30 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
-2018-02-02 19:33:06 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
-2018-02-02 19:33:07 [INFO ] [CommonMethods] - [sendKeys] Entering value....platformadmin@moolya.global into the textbox field....By.name: userName
-2018-02-02 19:33:08 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
-2018-02-02 19:33:09 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
-2018-02-02 19:33:09 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
-2018-02-02 19:34:10 [INFO ] [CommonMethods] - [compareWithExpectedElement] no such element: Unable to locate element: {"method":"xpath","selector":".//a[text()='Chapters']"}
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir12868_19572}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 87aa72455433cbaf093ecd4b678787d8
-*** Element info: {Using=xpath, value=.//a[text()='Chapters']}
-2018-02-02 19:34:10 [ERROR] [CommonMethods] - [compareWithExpectedElement] Expected value not present in the webpageno such element: Unable to locate element: {"method":"xpath","selector":".//a[text()='Chapters']"}
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir12868_19572}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 87aa72455433cbaf093ecd4b678787d8
-*** Element info: {Using=xpath, value=.//a[text()='Chapters']}
-2018-02-02 19:34:10 [ERROR] [CommonMethods] - [compareWithExpectedElement] no such element: Unable to locate element: {"method":"xpath","selector":".//a[text()='Chapters']"}
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'RAKSAN-HP32', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\Pradeep\AppData\Local\Temp\scoped_dir12868_19572}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=63.0.3239.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 87aa72455433cbaf093ecd4b678787d8
-*** Element info: {Using=xpath, value=.//a[text()='Chapters']}
+2018-02-14 19:05:43 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-02-14 19:05:50 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
+2018-02-14 19:05:51 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:05:52 [INFO ] [CommonMethods] - [sendKeys] Entering value....pradeep.dawaljee@raksan.in into the textbox field....By.name: userName
+2018-02-14 19:05:52 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:05:53 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: Password
+2018-02-14 19:05:54 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:05:54 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:05:54 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:05:54 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-02-14 19:06:30 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Forgot Password
+2018-02-14 19:06:31 [INFO ] [SmokeTest] - [forgotPasswordFunc] Forgot Password page Verified successfully @2018-02-14 19:06:31.004
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....pradeep.dawaljee@raksan.in into the text box field....Email
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:06:31 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-02-14 19:07:07 [INFO ] [CommonMethods] - [findElementByPlaceHolderAndSendKeys] Entering value .....dfdsfdfd into the text box field....Email
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Submit
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:08 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-02-14 19:07:44 [INFO ] [CommonMethods] - [click] Clicking on element ..... By.linkText: Login
+2018-02-14 19:07:45 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:07:46 [INFO ] [CommonMethods] - [sendKeys] Entering value.... into the textbox field....By.name: userName
+2018-02-14 19:07:47 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:07:47 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
+2018-02-14 19:07:48 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:07:49 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:49 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:07:49 [INFO ] [CommonMethods] - [explicitWaitTillElementInvisible] Waiting maximum of 30 secs for element By.xpath: .//*[@id='toast-container']/div/div to be InVisible
+2018-02-14 19:08:25 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:08:26 [INFO ] [CommonMethods] - [sendKeys] Entering value....platformadmin@moolya.global into the textbox field....By.name: userName
+2018-02-14 19:08:27 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:08:27 [INFO ] [CommonMethods] - [sendKeys] Entering value....MoolyaAdmin@123 into the textbox field....By.name: Password
+2018-02-14 19:08:28 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:08:29 [INFO ] [SmokeTest] - [loginFunc] Landing Page Verified successfully
+2018-02-14 19:11:00 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-02-14 19:11:08 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
+2018-02-14 19:12:34 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-02-14 19:12:41 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
+2018-02-14 19:12:41 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:12:42 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:12:43 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:12:43 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:12:44 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:20:41 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-02-14 19:20:48 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
+2018-02-14 19:20:48 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:20:49 [INFO ] [CommonMethods] - [sendKeys] Entering value....data1@em into the textbox field....By.name: userName
+2018-02-14 19:20:50 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:20:51 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass1 into the textbox field....By.name: Password
+2018-02-14 19:20:51 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:20:52 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:52 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:52 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:20:53 [INFO ] [CommonMethods] - [sendKeys] Entering value....data2@em into the textbox field....By.name: userName
+2018-02-14 19:20:53 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:20:54 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass2 into the textbox field....By.name: Password
+2018-02-14 19:20:55 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:20:55 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:55 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:55 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:20:56 [INFO ] [CommonMethods] - [sendKeys] Entering value....data3@em into the textbox field....By.name: userName
+2018-02-14 19:20:57 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:20:57 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass3 into the textbox field....By.name: Password
+2018-02-14 19:20:58 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:20:59 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:59 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:20:59 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:20:59 [INFO ] [CommonMethods] - [sendKeys] Entering value....data4@em into the textbox field....By.name: userName
+2018-02-14 19:21:00 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:21:01 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass4 into the textbox field....By.name: Password
+2018-02-14 19:21:01 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:21:02 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:21:02 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:21:02 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-14 19:21:03 [INFO ] [CommonMethods] - [sendKeys] Entering value....data5@em into the textbox field....By.name: userName
+2018-02-14 19:21:03 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-14 19:21:04 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass5 into the textbox field....By.name: Password
+2018-02-14 19:21:05 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-14 19:21:05 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-14 19:21:05 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
