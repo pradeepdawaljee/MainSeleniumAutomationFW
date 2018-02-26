@@ -85,3 +85,42 @@
 2018-02-14 19:21:05 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
 2018-02-14 19:21:05 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
 2018-02-14 19:21:05 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:38 [INFO ] [BaseClass] - [openBrowser] Opening Chrome Browser
+2018-02-16 17:48:44 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global
+2018-02-16 17:48:45 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-16 17:48:46 [INFO ] [CommonMethods] - [sendKeys] Entering value....data1@em into the textbox field....By.name: userName
+2018-02-16 17:48:47 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-16 17:48:47 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass1 into the textbox field....By.name: Password
+2018-02-16 17:48:48 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-16 17:48:49 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:49 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:49 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-16 17:48:49 [INFO ] [CommonMethods] - [sendKeys] Entering value....data2@em into the textbox field....By.name: userName
+2018-02-16 17:48:50 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-16 17:48:51 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass2 into the textbox field....By.name: Password
+2018-02-16 17:48:51 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-16 17:48:52 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:52 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:52 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-16 17:48:53 [INFO ] [CommonMethods] - [sendKeys] Entering value....data3@em into the textbox field....By.name: userName
+2018-02-16 17:48:53 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-16 17:48:54 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass3 into the textbox field....By.name: Password
+2018-02-16 17:48:55 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-16 17:48:55 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:55 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:55 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-16 17:48:56 [INFO ] [CommonMethods] - [sendKeys] Entering value....data4@em into the textbox field....By.name: userName
+2018-02-16 17:48:57 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-16 17:48:57 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass4 into the textbox field....By.name: Password
+2018-02-16 17:48:58 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-16 17:48:59 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:59 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:48:59 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: userName
+2018-02-16 17:48:59 [INFO ] [CommonMethods] - [sendKeys] Entering value....data5@em into the textbox field....By.name: userName
+2018-02-16 17:49:00 [INFO ] [CommonMethods] - [clear] Clearing the textbox field.....By.name: Password
+2018-02-16 17:49:01 [INFO ] [CommonMethods] - [sendKeys] Entering value....Pass5 into the textbox field....By.name: Password
+2018-02-16 17:49:01 [INFO ] [CommonMethods] - [findElementByTextAndClick] Clicking on element with text.....Sign in
+2018-02-16 17:49:02 [INFO ] [CommonMethods] - [getPopUpNotificationMessage] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-16 17:49:02 [INFO ] [CommonMethods] - [getElementText] getting text from the element  By.xpath: .//*[@id='toast-container']/div/div
+2018-02-26 19:32:49 [INFO ] [BaseClass] - [openBrowser] Opening ie Browser
+2018-02-26 19:32:51 [INFO ] [BaseClass] - [openBrowser] Opening Url https://app.ait.moolya.global

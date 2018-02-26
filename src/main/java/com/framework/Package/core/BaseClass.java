@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -27,9 +29,23 @@ public class BaseClass extends ExtentReport {
 		
 		data=new ExcelClass(System.getProperty("user.dir")+"/src/main/resources/excelFiles/login.xlsx");
 
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
-		driver=new ChromeDriver();
-		log.info("Opening Chrome Browser");
+		if(browserType.equalsIgnoreCase("chrome")){
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
+			driver=new ChromeDriver();			
+		}else if(browserType.equalsIgnoreCase("firefox")){
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/Drivers/geckodriver.exe");
+			driver=new FirefoxDriver();
+		}else if(browserType.equalsIgnoreCase("ie")){
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"/Drivers/IEDriverServer.exe");
+			driver=new InternetExplorerDriver();
+		}else{
+			browserType="Chrome";
+			System.out.println("As invalid Browser Name was provided. Hence Opening Chrome Browser");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
+			driver=new ChromeDriver();
+		}		
+		
+		log.info("Opening "+browserType+" Browser");
 		
 		extent.addSystemInfo("BrowserName", browserType);
 		

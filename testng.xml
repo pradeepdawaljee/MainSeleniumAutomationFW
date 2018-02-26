@@ -8,13 +8,13 @@
     
   <test name="Test">
   
-<parameter name="browserType" value="Chrome"></parameter> 
+<parameter name="browserType" value="chrome"></parameter> 
 <parameter name="environment" value="STAGGING"></parameter> 
     <classes>
       <class name="com.framework.Package.tests.SmokeTest">
-          <!-- <methods>
+           <methods>
               <include name="testCaseWithMultipleRecords"></include>
-          </methods> -->
+          </methods> 
       </class>
     </classes>
   </test> <!-- Test -->
