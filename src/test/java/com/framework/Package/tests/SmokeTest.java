@@ -1,5 +1,6 @@
 package com.framework.Package.tests;
 
+import org.apache.commons.lang3.time.StopWatch;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -16,6 +17,8 @@ import com.framework.Package.utilities.RandomDataUtility;
 public class SmokeTest extends BaseClass{
 	
 	 private Logger log=LoggerHelper.getLogger(SmokeTest.class);
+	 
+	 StopWatch watch=new StopWatch();
 	
 	Login login=new Login();
 	LandingScreen landingScreen=new LandingScreen();
@@ -44,10 +47,16 @@ public class SmokeTest extends BaseClass{
 		System.out.println("Login page verified successfully");
 		login.passDataToUsernameField(username);
 		login.passDataToPasswordField(password);
+		
+		watch.start(); //This is to start the watch
 		login.clickOnLoginButton();
 		//System.out.println("CommonMethods.compareWithExpectedElement(landingScreen.chaptersText)="+CommonMethods.compareWithExpectedElement(landingScreen.chaptersText));
 		landingScreen.verifyLandingScreen();
-		System.out.println("Login Page Verified");
+		long timeTakenToLoadThePage=watch.getTime(); //This will get the time from the watch was started.
+		double timeTakenToLoadThePageInSeconds=(double)timeTakenToLoadThePage/1000.0;
+		watch.reset(); //This will reset the watch to 0 again.
+		
+		System.out.println("Login Page Verified with timeTakenToLoadThePageInSeconds="+timeTakenToLoadThePageInSeconds);
 		log.info("Landing Page Verified successfully");
 		data.setCellData("login", "Status", 2, "Pass@"+RandomDataUtility.getCurrentDateAndTime());
 	}
