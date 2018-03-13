@@ -45,7 +45,8 @@ public class CommonMethods extends BaseClass {
 		timestamp=timestamp.substring(0, 19);
 		
 		File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String path=System.getProperty("user.dir")+"/ScreenShots/"+timestamp+".jpg";
+		//String path=System.getProperty("user.dir")+"/ScreenShots/"+timestamp+".jpg";
+		String path="./ScreenShots/"+timestamp+".jpg";
 		File destFile=new File(path);
 		FileUtils.copyFile(srcFile, destFile);
 		

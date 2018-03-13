@@ -6,14 +6,20 @@
   </listeners>
   <test verbose="0" name="Test(failed)">
     <parameter name="environment" value="STAGGING"/>
-    <parameter name="browserType" value="ie"/>
+    <parameter name="browserType" value="chrome"/>
     <classes>
       <class name="com.framework.Package.tests.SmokeTest">
         <methods>
+          <include name="loginWithEmptyUsername"/>
           <include name="ExtentReporting"/>
+          <include name="loginFunc"/>
+          <include name="navigateToLoginPageFromForgotPasswordScreen"/>
           <include name="openBrowser"/>
           <include name="end"/>
+          <include name="forgotPasswordFunc"/>
           <include name="testCaseWithMultipleRecords" invocation-numbers="0 1 2 3 4"/>
+          <include name="forgotPasswordWithInvalidEmail"/>
+          <include name="loginWithEmptyPasswordField"/>
         </methods>
       </class> <!-- com.framework.Package.tests.SmokeTest -->
     </classes>
