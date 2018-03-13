@@ -12,9 +12,9 @@
 <parameter name="environment" value="STAGGING"></parameter> 
     <classes>
       <class name="com.framework.Package.tests.SmokeTest">
-           <!-- <methods>
+           <methods>
               <include name="testCaseWithMultipleRecords"></include>
-          </methods> --> 
+          </methods>  
       </class>
     </classes>
   </test> <!-- Test -->
