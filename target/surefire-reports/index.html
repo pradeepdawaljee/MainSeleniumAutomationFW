@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,36 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="forgotPasswordFunc">forgotPasswordFunc</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="forgotPasswordWithInvalidEmail">forgotPasswordWithInvalidEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="loginFunc">loginFunc</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="loginWithEmptyPasswordField">loginWithEmptyPasswordField</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="loginWithEmptyUsername">loginWithEmptyUsername</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="navigateToLoginPageFromForgotPasswordScreen">navigateToLoginPageFromForgotPasswordScreen</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.framework.Package.tests.SmokeTest" hash-for-method="testCaseWithMultipleRecords(data4@em, Pass4)">testCaseWithMultipleRecords(data4@em, Pass4)</a> <!-- method navigator-link -->
@@ -173,54 +143,6 @@
               <span class="class-name">com.framework.Package.tests.SmokeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="forgotPasswordFunc">
-                  </a> <!-- forgotPasswordFunc -->
-                  <span class="method-name">forgotPasswordFunc</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="forgotPasswordWithInvalidEmail">
-                  </a> <!-- forgotPasswordWithInvalidEmail -->
-                  <span class="method-name">forgotPasswordWithInvalidEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginFunc">
-                  </a> <!-- loginFunc -->
-                  <span class="method-name">loginFunc</span>
-                  <em>
-(Entering valid username & password)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmptyPasswordField">
-                  </a> <!-- loginWithEmptyPasswordField -->
-                  <span class="method-name">loginWithEmptyPasswordField</span>
-                  <em>
-(Entering valid username & Empty password)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmptyUsername">
-                  </a> <!-- loginWithEmptyUsername -->
-                  <span class="method-name">loginWithEmptyUsername</span>
-                  <em>
-(Entering empty username & valid password)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigateToLoginPageFromForgotPasswordScreen">
-                  </a> <!-- navigateToLoginPageFromForgotPasswordScreen -->
-                  <span class="method-name">navigateToLoginPageFromForgotPasswordScreen</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testCaseWithMultipleRecords(data4@em, Pass4)">
@@ -280,7 +202,11 @@
     &lt;parameter name=&quot;environment&quot; value=&quot;STAGGING&quot;/&gt;
     &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.framework.Package.tests.SmokeTest&quot;/&gt;
+      &lt;class name=&quot;com.framework.Package.tests.SmokeTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCaseWithMultipleRecords&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.framework.Package.tests.SmokeTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -328,56 +254,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginWithEmptyPasswordField')
+data.setCell(0, 1, 'testCaseWithMultipleRecords')
 data.setCell(0, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(0, 3, 39156);
+data.setCell(0, 3, 3311);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithEmptyUsername')
+data.setCell(1, 1, 'testCaseWithMultipleRecords')
 data.setCell(1, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(1, 3, 39126);
+data.setCell(1, 3, 3284);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'forgotPasswordFunc')
+data.setCell(2, 1, 'testCaseWithMultipleRecords')
 data.setCell(2, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(2, 3, 37954);
+data.setCell(2, 3, 3275);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'forgotPasswordWithInvalidEmail')
+data.setCell(3, 1, 'testCaseWithMultipleRecords')
 data.setCell(3, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(3, 3, 36653);
+data.setCell(3, 3, 3246);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginFunc')
+data.setCell(4, 1, 'testCaseWithMultipleRecords')
 data.setCell(4, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(4, 3, 5057);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testCaseWithMultipleRecords')
-data.setCell(5, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(5, 3, 3349);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testCaseWithMultipleRecords')
-data.setCell(6, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(6, 3, 3346);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testCaseWithMultipleRecords')
-data.setCell(7, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(7, 3, 3315);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testCaseWithMultipleRecords')
-data.setCell(8, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(8, 3, 3293);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testCaseWithMultipleRecords')
-data.setCell(9, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(9, 3, 3271);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'navigateToLoginPageFromForgotPasswordScreen')
-data.setCell(10, 2, 'com.framework.Package.tests.SmokeTest')
-data.setCell(10, 3, 1381);
+data.setCell(4, 3, 2807);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -392,9 +294,26 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.Package.tests.SmokeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginWithEmptyUsername</span>
+                <br/>
+                <span class="ignored-method-name">loginFunc</span>
+                <br/>
+                <span class="ignored-method-name">navigateToLoginPageFromForgotPasswordScreen</span>
+                <br/>
+                <span class="ignored-method-name">forgotPasswordFunc</span>
+                <br/>
+                <span class="ignored-method-name">loginWithEmptyPasswordField</span>
+                <br/>
+                <span class="ignored-method-name">forgotPasswordWithInvalidEmail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -410,55 +329,31 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser(chrome, STAGGING)</span>
-                <span class="method-start">242 ms</span>
+                <span class="method-start">222 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testCaseWithMultipleRecords(data1@em, Pass1)</span>
-                <span class="method-start">58348 ms</span>
+                <span class="method-start">52658 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCaseWithMultipleRecords(data2@em, Pass2)</span>
-                <span class="method-start">61695 ms</span>
+                <span class="method-start">55466 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCaseWithMultipleRecords(data3@em, Pass3)</span>
-                <span class="method-start">65045 ms</span>
+                <span class="method-start">58742 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCaseWithMultipleRecords(data4@em, Pass4)</span>
-                <span class="method-start">68339 ms</span>
+                <span class="method-start">62053 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCaseWithMultipleRecords(data5@em, Pass5)</span>
-                <span class="method-start">71610 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmptyPasswordField</span>
-                <span class="method-start">74928 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">forgotPasswordFunc</span>
-                <span class="method-start">114085 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">forgotPasswordWithInvalidEmail</span>
-                <span class="method-start">152040 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">navigateToLoginPageFromForgotPasswordScreen</span>
-                <span class="method-start">188694 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmptyUsername</span>
-                <span class="method-start">190077 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginFunc</span>
-                <span class="method-start">229204 ms</span>
+                <span class="method-start">65299 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">end</span>
-                <span class="method-start">234261 ms</span>
+                <span class="method-start">68584 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

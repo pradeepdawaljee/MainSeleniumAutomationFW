@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="6" total="11" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="234501" started-at="2018-03-13T11:57:41Z" finished-at="2018-03-13T12:01:36Z">
+  <suite name="Suite" duration-ms="68689" started-at="2018-03-14T14:30:12Z" finished-at="2018-03-14T14:31:20Z">
     <groups>
       <group name="MultipleRecords">
-        <method signature="SmokeTest.testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" class="com.framework.Package.tests.SmokeTest"/>
+        <method signature="SmokeTest.testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" class="com.framework.Package.tests.SmokeTest"/>
       </group> <!-- MultipleRecords -->
     </groups>
-    <test name="Test" duration-ms="234501" started-at="2018-03-13T11:57:41Z" finished-at="2018-03-13T12:01:36Z">
+    <test name="Test" duration-ms="68689" started-at="2018-03-14T14:30:12Z" finished-at="2018-03-14T14:31:20Z">
       <class name="com.framework.Package.tests.SmokeTest">
-        <test-method status="PASS" signature="ExtentReporting()[pri:0, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="ExtentReporting" is-config="true" duration-ms="232" started-at="2018-03-13T17:27:41Z" finished-at="2018-03-13T17:27:41Z">
+        <test-method status="PASS" signature="ExtentReporting()[pri:0, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="ExtentReporting" is-config="true" duration-ms="214" started-at="2018-03-14T20:00:12Z" finished-at="2018-03-14T20:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReporting -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="openBrowser" is-config="true" duration-ms="58075" started-at="2018-03-13T17:27:41Z" finished-at="2018-03-13T17:28:39Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="openBrowser" is-config="true" duration-ms="52402" started-at="2018-03-14T20:00:12Z" finished-at="2018-03-14T20:01:04Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" duration-ms="3346" started-at="2018-03-13T17:28:39Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-13T17:28:43Z">
+        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" duration-ms="2807" started-at="2018-03-14T20:01:04Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-14T20:01:07Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseWithMultipleRecords -->
-        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" duration-ms="3349" started-at="2018-03-13T17:28:43Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-13T17:28:46Z">
+        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" duration-ms="3275" started-at="2018-03-14T20:01:07Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-14T20:01:10Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseWithMultipleRecords -->
-        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" duration-ms="3293" started-at="2018-03-13T17:28:46Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-13T17:28:49Z">
+        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" duration-ms="3311" started-at="2018-03-14T20:01:10Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-14T20:01:14Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseWithMultipleRecords -->
-        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" duration-ms="3271" started-at="2018-03-13T17:28:49Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-13T17:28:53Z">
+        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" duration-ms="3246" started-at="2018-03-14T20:01:14Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-14T20:01:17Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseWithMultipleRecords -->
-        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="testCaseWithMultipleRecords" duration-ms="3315" started-at="2018-03-13T17:28:53Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-13T17:28:56Z">
+        <test-method status="PASS" signature="testCaseWithMultipleRecords(java.lang.String, java.lang.String)[pri:-1, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="testCaseWithMultipleRecords" duration-ms="3284" started-at="2018-03-14T20:01:17Z" data-provider="gettingDataUsingDataProvider" finished-at="2018-03-14T20:01:20Z">
           <params>
             <param index="0">
               <value>
@@ -110,31 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseWithMultipleRecords -->
-        <test-method status="PASS" signature="loginWithEmptyPasswordField()[pri:1, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="loginWithEmptyPasswordField" duration-ms="39156" started-at="2018-03-13T17:28:56Z" description="Entering valid username &amp; Empty password" finished-at="2018-03-13T17:29:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithEmptyPasswordField -->
-        <test-method status="PASS" signature="forgotPasswordFunc()[pri:2, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="forgotPasswordFunc" duration-ms="37954" started-at="2018-03-13T17:29:35Z" finished-at="2018-03-13T17:30:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordFunc -->
-        <test-method status="PASS" signature="forgotPasswordWithInvalidEmail()[pri:3, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="forgotPasswordWithInvalidEmail" duration-ms="36653" started-at="2018-03-13T17:30:13Z" finished-at="2018-03-13T17:30:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordWithInvalidEmail -->
-        <test-method status="PASS" signature="navigateToLoginPageFromForgotPasswordScreen()[pri:4, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="navigateToLoginPageFromForgotPasswordScreen" duration-ms="1381" started-at="2018-03-13T17:30:50Z" finished-at="2018-03-13T17:30:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToLoginPageFromForgotPasswordScreen -->
-        <test-method status="PASS" signature="loginWithEmptyUsername()[pri:5, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="loginWithEmptyUsername" duration-ms="39126" started-at="2018-03-13T17:30:51Z" description="Entering empty username &amp; valid password" finished-at="2018-03-13T17:31:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithEmptyUsername -->
-        <test-method status="PASS" signature="loginFunc()[pri:6, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="loginFunc" duration-ms="5057" started-at="2018-03-13T17:31:30Z" description="Entering valid username &amp; password" finished-at="2018-03-13T17:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFunc -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.Package.tests.SmokeTest@27808f31]" name="end" is-config="true" duration-ms="473" started-at="2018-03-13T17:31:35Z" finished-at="2018-03-13T17:31:36Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.Package.tests.SmokeTest@3e57cd70]" name="end" is-config="true" duration-ms="318" started-at="2018-03-14T20:01:20Z" finished-at="2018-03-14T20:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

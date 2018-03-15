@@ -18,26 +18,26 @@ public class MyTestNGListners implements ITestListener{
 		index=name.indexOf('.');
 		packageName=name.substring(0,index);
 		className=name.substring(index+1);*/
-		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().indexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().indexOf('.')+1))+" Started");
+		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().lastIndexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().lastIndexOf('.')+1))+" Started");
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().indexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().indexOf('.')+1))+" Passed Successfully");
+		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().lastIndexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().lastIndexOf('.')+1))+" Passed Successfully");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().indexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().indexOf('.')+1))+" Failed");
+		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().lastIndexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().lastIndexOf('.')+1))+" Failed");
 		System.out.println("Code for Screenshot to be written here");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().indexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().indexOf('.')+1))+" Skipped");
+		System.out.println("Test "+result.getName()+" from package= "+(result.getInstanceName().substring(0,result.getInstanceName().lastIndexOf('.')))+" & class="+(result.getInstanceName().substring(result.getInstanceName().lastIndexOf('.')+1))+" Skipped");
 	}
 
 	@Override
